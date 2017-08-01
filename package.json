@@ -1,0 +1,53 @@
+{
+  "name": "js-tooling",
+  "version": "1.0.0",
+  "description": "A Javascript Tooling presentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:babel": "node build/babel/index.js",
+    "start:webpack": "node build/webpack/index.js",
+    "babel": "babel ./src/index.js -o ./build/babel/index.js",
+    "eslint": "eslint src/**/*.js",
+    "eslint:fix": "eslint src/**/*.js --fix",
+    "prettier": "prettier-eslint --single-quote --trailing-comma es5  --list-different \"**/*.js\"",
+    "prettier:fix": "prettier-eslint --single-quote --trailing-comma es5 --write \"**/*.js\"",
+    "webpack": "webpack",
+    "jest": "jest",
+    "jest:watch": "jest --watch",
+    "jest:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/MatthieuLemoine/javascript-tooling"
+  },
+  "keywords": [
+    "javascript",
+    "tooling",
+    "babel",
+    "webpack",
+    "jest",
+    "eslint",
+    "prettier"
+  ],
+  "author": "MatthieuLemoine",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^4.3.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "jest": "^20.0.4",
+    "prettier": "^1.5.3",
+    "prettier-eslint": "^6.4.2",
+    "prettier-eslint-cli": "^4.1.1",
+    "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1"
+  }
+}

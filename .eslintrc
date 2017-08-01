@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",     // https://github.com/babel/babel-eslint
+  "extends": [
+    "eslint:recommended",       // http://eslint.org/docs/rules/
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  plugins : [
+    'jest'
+  ],
+  "rules": {
+    // Default to single quotes and raise an error if something
+    // else is used
+    "quotes": [2, "single"],
+  }
+}
