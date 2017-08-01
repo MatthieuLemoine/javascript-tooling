@@ -1,6 +1,10 @@
-# Javascript Tooling
+# JavaScript Tooling
 
 # Babel
+
+A compiler for your JavaScript.
+
+![Babel](/assets/babel.png)
 
 ```
 npm i -D babel-cli babel-preset-env babel-preset-stage-3 babel-plugin-module-resolver
@@ -25,6 +29,10 @@ Documentation :
 - [plugins](https://babeljs.io/docs/plugins/)
 
 # ESLint
+
+A JavaScript linter to maintain code quality.
+
+![ESLint](/assets/eslint.png)
 
 ```
 npm i -D eslint babel-eslint eslint-plugin-jest
@@ -58,6 +66,10 @@ Documentation :
 
 # Prettier
 
+A code formatter to enforce a consistent code style.
+
+![Prettier](/assets/prettier.png)
+
 ```
 npm i -D prettier prettier-eslint prettier-eslint-cli
 ```
@@ -89,6 +101,10 @@ Documentation :
 
 # Webpack
 
+A bundler for all your assets (js, css, jpg, png, json, etc...).
+
+![Webpack](/assets/webpack.png)
+
 ```
 npm i -D webpack babel-loader
 ```
@@ -107,6 +123,10 @@ Documentation :
 - [configuration](https://webpack.js.org/configuration/)
 
 # Jest
+
+A performant test runner.
+
+![Jest](/assets/jest.png)
 
 ```
 npm i -D jest babel-jest
