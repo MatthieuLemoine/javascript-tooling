@@ -1,4 +1,4 @@
 node_modules
-build/babel
-build/webpack
+build/babel/*.js
+build/webpack/*.js
 coverage
