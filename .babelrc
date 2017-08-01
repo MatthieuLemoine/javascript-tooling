@@ -1,20 +1,11 @@
 {
   "presets": [
-    "stage-3",
     [
       "env",
       {
         "targets": {
           "node": "current"
         }
-      }
-    ]
-  ],
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "root": ["./src"]
       }
     ]
   ]
