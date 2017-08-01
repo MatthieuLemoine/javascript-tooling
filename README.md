@@ -1,5 +1,11 @@
 # JavaScript Tooling
 
+# Setup
+
+```
+npm i --production
+```
+
 # Babel
 
 A compiler for your JavaScript.
@@ -7,7 +13,7 @@ A compiler for your JavaScript.
 ![Babel](/assets/babel.png)
 
 ```
-npm i -D babel-cli babel-preset-env babel-preset-stage-3 babel-plugin-module-resolver
+npm i -D babel-cli babel-preset-env
 ```
 
 Atom packages :
@@ -130,6 +136,23 @@ A performant test runner.
 
 ```
 npm i -D jest babel-jest
+```
+
+Add this to your ```.eslintrc``` :
+
+```javascript
+{
+  ...
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  plugins: [
+    'jest'
+  ],
+  ...
+}
 ```
 
 Run :

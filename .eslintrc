@@ -9,15 +9,9 @@
   },
   "env": {
     "node": true,
-    "es6": true,
-    "jest": true
+    "es6": true
   },
-  plugins : [
-    'jest'
-  ],
   "rules": {
-    // Default to single quotes and raise an error if something
-    // else is used
     "quotes": [2, "single"],
   }
 }
